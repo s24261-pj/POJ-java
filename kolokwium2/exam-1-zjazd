@@ -1,0 +1,23 @@
+package exam;
+
+public class Main {
+	public static void main(String[] args) {
+		String[] tablica = { "1", "6", "1" };
+		System.out.println(count(tablica, 1));
+	}
+	
+	public static int count(String[] array, int counted) {
+		int counter = 0;
+		
+		for (String element: array) {
+			
+			Integer num = Integer.valueOf(element);
+			
+			if (num == counted) {
+				counter++;
+			}
+		}
+	    
+		return counter;
+	}
+}
