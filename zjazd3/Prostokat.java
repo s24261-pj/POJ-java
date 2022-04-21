@@ -66,7 +66,7 @@ public class Prostokat implements MoznaWyznaczycWielokrotnoscPrzekatnej, MoznaWy
 //    public boolean equals(Object obj) {
 //        if (this == obj) return true;
 //        if (obj instanceof MaWlasnosciRownolegloboku) return true;
-//        if getClass() != obj.getClass()) return false;
+//        if (getClass() != obj.getClass()) return false;
 //        Prostokat prostokat = (Prostokat) obj;
 //        return podstawa == prostokat.podstawa && bok == prostokat.bok && katNachylenia() == prostokat.katNachylenia();
 //    }
